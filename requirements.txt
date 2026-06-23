@@ -1,0 +1,14 @@
+# core: directly imported by the notebook
+numpy==2.4.3
+scipy==1.17.1
+scikit-learn==1.8.0
+pandas==3.0.1
+pyriemann==0.10
+
+# pulled in by scikit-learn / pyriemann; pinned for reproducibility
+joblib==1.5.3
+threadpoolctl==3.6.0
+
+# to open and run the .ipynb (skip if you already have Jupyter)
+jupyterlab==4.5.5
+ipykernel==7.2.0
